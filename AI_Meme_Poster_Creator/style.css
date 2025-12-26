@@ -1,0 +1,53 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+input, select {
+    padding: 10px;
+    width: 250px;
+    margin: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#output {
+    margin-top: 30px;
+}
+
+/* Common card style */
+.card {
+    width: 400px;
+    margin: auto;
+    position: relative;
+}
+
+/* Image */
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Caption text */
+.caption-text {
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+    right: 10px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px black;
+}
+
+/* Poster text bigger */
+.poster-text {
+    font-size: 30px;
+}
